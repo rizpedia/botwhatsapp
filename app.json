@@ -1,0 +1,14 @@
+{
+  "name": "Bot WhatsApp",
+  "description": "Bos WhatsApp Dengan OS Alpine",
+  "keywords": [
+    "WhatsApp",
+    "Bot",
+    "plugin",
+    "modular",
+    "productivity"
+  ],
+  "repository": "https://github.com/rizpedia/botwhatsapp",
+  "website": "https://rizpedia.my.id",
+  "stack": "container",
+}
