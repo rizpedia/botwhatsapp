@@ -2,4 +2,4 @@ build:
   docker:
       worker: Dockerfile
 run:
-   worker: node index.js
+   worker: node /home/botwhatsapp/index.js
