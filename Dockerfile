@@ -32,4 +32,5 @@ WORKDIR /home/botwhatsapp/
 #
 RUN npm i
 RUN rm /bin/sh && ln -s /bin/bash /bin/sh
-CMD ["node","index.js"]
+CMD ["node","/home/botwhatsapp/
+index.js"]
