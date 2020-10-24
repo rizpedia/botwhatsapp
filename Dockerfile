@@ -18,17 +18,18 @@ RUN apk add --no-cache=true --update \
 
 RUN npm i -g cwebp
 RUN npm i -g ytdl
-RUN npm i
+
 
 #
 # Clone repo and prepare working directory
 #
-RUN git clone -b master https://github.com/fdciabdul/termux-whatsapp-bot /home/projectbish/
+RUN git clone -b master https://github.com/fdciabdul/termux-whatsapp-bot /home/botwhatsapp/
 RUN mkdir /home/botwhatsapp/bin/
 WORKDIR /home/botwhatsapp/
 
 #
 # Install requirements
 #
+RUN npm i
 RUN rm /bin/sh && ln -s /bin/bash /bin/sh
 CMD ["node","index.js"]
