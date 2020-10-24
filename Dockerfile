@@ -13,6 +13,7 @@ RUN apk add --no-cache=true --update \
     wget \
     ffmpeg \
     nodejs\
+    npm\
     git
 
 RUN npm i -g cwebp
