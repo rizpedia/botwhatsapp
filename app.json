@@ -1,14 +1,28 @@
 {
-  "name": "Bot WhatsApp",
-  "description": "Bos WhatsApp Dengan OS Alpine",
+  "name": "Project Bish UserBot",
+  "description": "[projectbish] A modular Telegram userbot running on Python 3.8",
   "keywords": [
-    "WhatsApp",
-    "Bot",
+    "telegram",
+    "userbot",
     "plugin",
     "modular",
     "productivity"
   ],
   "repository": "https://github.com/rizpedia/botwhatsapp",
-  "website": "https://rizpedia.my.id",
+  "website": "https://telegra.ph/How-to-host-a-Telegram-Userbot-11-02",
   "stack": "container",
+  "env": {
+    "ALIVE_NAME": {
+      "description": "Bebas mau diisi apa.",
+      "required": true
+    }
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql",
+      "options": {
+        "version": "12"
+      }
+    }
+  ]
 }
